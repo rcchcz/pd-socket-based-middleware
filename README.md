@@ -12,9 +12,14 @@ Next, run the Colori server.
 
 `python .\server_colori.py`
 
-Finally, run the main application passing the name of the service to be used as an argument. In this case, DNS only knows the 'colori' service.
+Also run the Ducks server.
+
+`python .\server_ducks.py`
+
+Finally, run the main application passing the name of the service to be used as an argument. In this case, DNS only knows the 'colori' and 'ducks' services.
 
 `python main.py colori`
+`python main.py ducks`
 
 Instructions for using the service will be printed on the screen.
 
