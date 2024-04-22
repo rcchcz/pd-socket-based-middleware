@@ -7,6 +7,11 @@ services = {
         'port': 5555,
         'lib': 'methods_colori'
     },
+    'ducks': {
+        'url': 'localhost',
+        'port': 6666,
+        'lib': 'methods_ducks'
+    },
 }
 
 class ClientStub:
